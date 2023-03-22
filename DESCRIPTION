@@ -1,0 +1,10 @@
+Package: simulMGF
+Type: Package
+Title: Simulate SNP Matrix, phenotype and genotypic effects
+Version: 0.1.0
+Author: Martin Nahuel Garcia [aut, cre]
+Maintainer: Martin Nahuel Garcia <garcia.martin@inta.gob.ar>
+Description: Simulate a random SNP Matrix for diploid organisms (coded by 0, 1, 2) or half sib/full sib SNP matrix from real or simulated parents SNP data.    Simulate phenotypic traits for real or simulated SNP data, controlled by a specific number of QTLs  and their effects, sampled from a Normal or a Uniform distributions.    This is useful for testing GWAS an GS models or for educational purposes.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true

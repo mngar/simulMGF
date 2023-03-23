@@ -5,7 +5,7 @@
 Function to simulate full sib progeny genotype
 }
 \description{
-Simulate full sib progeny genotypes from the genotype of parentals (matrixes with the same dimensions). Pair of parents mating will be in the order of the matrixes. We assume that these are diploid organisms.
+Simulate full sib progeny genotypes from the genotype of the parents (matrixes with the same dimensions). Pair of parents mating will be in the order of the matrixes. We assume that these are diploid organisms.
 }
 \usage{
 simulFS(x, y, Nprogeny)
@@ -26,7 +26,7 @@ Nprogeny number of progeny's genotypes to generate from each pair of parents
 a matrix of dimensions (nrow(x)*Nprogeny) x ncol(x)
 }
 \references{
-Wu, R., Casella, G., & Ma, C. X. (2007). Linkage Analysis for Distorted and Misclassified Markers. Statistical Genetics of Quantitative Traits: Linkage, Maps, and QTL, 123-143.
+Wu, R., Ma, C., & Casella, G. (2007). Statistical genetics of quantitative traits: linkage, maps and QTL. Springer Science & Business Media.
 }
 \author{
 Martin Nahuel Garcia <orcid:0000-0001-5760-986X>

@@ -23,7 +23,7 @@ Nmarkers number of SNP markers to generate.
 a matrix of dimensions Nind x Nmarkers.
 }
 \references{
-Wu, R., Casella, G., & Ma, C. X. (2007). Linkage Analysis for Distorted and Misclassified Markers. Statistical Genetics of Quantitative Traits: Linkage, Maps, and QTL, 123-143.
+Wu, R., Ma, C., & Casella, G. (2007). Statistical genetics of quantitative traits: linkage, maps and QTL. Springer Science & Business Media.
 }
 \author{
 Martin Nahuel Garcia <orcid:0000-0001-5760-986X>

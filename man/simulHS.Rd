@@ -26,7 +26,7 @@ The function assume: a diploid organism; mendelian segregation of alleles; and i
 a matrix of dimensions (nrow(x)*Nprogeny) x ncol(x)
 }
 \references{
-Wu, R., Casella, G., & Ma, C. X. (2007). Linkage Analysis for Distorted and Misclassified Markers. Statistical Genetics of Quantitative Traits: Linkage, Maps, and QTL, 123-143.
+Wu, R., Ma, C., & Casella, G. (2007). Statistical genetics of quantitative traits: linkage, maps and QTL. Springer Science & Business Media.
 }
 \author{
 Martin Nahuel Garcia <orcid:0000-0001-5760-986X>

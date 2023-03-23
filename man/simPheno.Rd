@@ -12,7 +12,7 @@ simPheno(x, Nqtl, Esigma, Pmean, Perror)
 }
 \arguments{
   \item{x}{
-SNP matrix coded like 0 homozygote; 1 heterozygote; 2 homozygote
+SNP matrix coded like 0 homozygous; 1 heterozygous; 2 homozygous
 }
   \item{Nqtl}{
 number of QTLs to simulate
@@ -34,7 +34,7 @@ An object of class list containing the trait, the markers associated and their e
   \item{Meffects }{effects of the associated SNPs.}
 }
 \references{
-Wu, R., Casella, G., & Ma, C. X. (2007). Linkage Analysis for Distorted and Misclassified Markers. Statistical Genetics of Quantitative Traits: Linkage, Maps, and QTL, 123-143.
+Wu, R., Ma, C., & Casella, G. (2007). Statistical genetics of quantitative traits: linkage, maps and QTL. Springer Science & Business Media.
 }
 \author{
 Martin Nahuel Garcia <orcid:0000-0001-5760-986X>

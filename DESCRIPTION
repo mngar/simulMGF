@@ -8,3 +8,4 @@ Description: Simulate a random SNP Matrix for diploid organisms (coded by 0, 1, 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+URL: https://mngar.github.io/simulMGF/

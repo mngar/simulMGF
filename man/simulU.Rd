@@ -1,6 +1,5 @@
 \name{simulU}
 \alias{simulU}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 Function to simulate a random SNP matrix, phenotype and QTLs with their effects
 }
@@ -10,7 +9,6 @@ This function simulate a SNP matrix (coded as 0, 1, 2) and traits with a selecte
 \usage{
 simulU(Nind, Nmarkers, Nqtl, Pmean, Perror)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{Nind}{
 number of individuals to simulate.
@@ -55,12 +53,3 @@ str(usimout)
 #$ QTN     : int [1:50] 568 474 529 349 45 732 416 51 413 514 ...
 #$ Meffects: num [1:50] 0.2355 0.0158 -0.1369 -0.1246 0.7426 ...
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory (show via RShowDoc("KEYWORDS")):
-% \keyword{ ~kwd1 }
-% \keyword{ ~kwd2 }
-% Use only one keyword per line.
-% For non-standard keywords, use \concept instead of \keyword:
-% \concept{ ~cpt1 }
-% \concept{ ~cpt2 }
-% Use only one concept per line.

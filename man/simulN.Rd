@@ -1,6 +1,5 @@
 \name{simulN}
 \alias{simulN}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 Function to simulate a SNP matrix, a phenotypic trait and the effects of associated SNPs.
 }
@@ -10,7 +9,6 @@ This function simulate a SNP matrix (coded as 0, 1, 2) and traits with a selecte
 \usage{
 simulN(Nind, Nmarkers, Nqtl, Esigma, Pmean, Perror)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{Nind}{
 number of individuals to simulate.
@@ -37,7 +35,6 @@ Genotypic data is simulated as the round value sampled from an uniform distribut
 
 }
 \value{
-%%  ~Describe the value returned
 An object of class list containing the SNP matrix, the trait, the markers associated and their effects.
   \item{geno }{SNP matrix generated.}
   \item{pheno }{vector with the trait values simulated.}
@@ -54,9 +51,6 @@ Wu, R., Ma, C., & Casella, G. (2007). Statistical genetics of quantitative trait
   The genotype is simulated in the same way of simGeno function.
   The trait, QTLs and their effects are simulated in the same way of simPheno function.
 }
-
-%% ~Make other sections like Warning with \section{Warning }{....} ~
-
 \seealso{
 simGeno, simPheno, simulU
 }

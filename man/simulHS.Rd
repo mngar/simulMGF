@@ -1,6 +1,5 @@
 \name{simulHS}
 \alias{simulHS}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 Function to simulate half sib progeny genotypes
 }
@@ -10,7 +9,6 @@ Simulate half sib progeny from one genotyped parent assuming a random genotype f
 \usage{
 simulHS(x, Nprogeny)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{x}{
 genotype matrix of a set of moms
@@ -42,12 +40,3 @@ simulHS(simG[1:3,],5)
 dim(simulatedHS)
 #[1]   15 1000
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory (show via RShowDoc("KEYWORDS")):
-% \keyword{ ~kwd1 }
-% \keyword{ ~kwd2 }
-% Use only one keyword per line.
-% For non-standard keywords, use \concept instead of \keyword:
-% \concept{ ~cpt1 }
-% \concept{ ~cpt2 }
-% Use only one concept per line.

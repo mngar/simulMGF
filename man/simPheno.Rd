@@ -1,6 +1,5 @@
 \name{simPheno}
 \alias{simPheno}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 Function to simulate phenotypes
 }
@@ -51,12 +50,3 @@ str(simP)
 #$ QTN     : int [1:50] 568 474 529 349 45 732 416 51 413 514 ...
 #$ Meffects: num [1:50] 0.2396 -0.138 0.906 0.0186 1.0687 ...
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory (show via RShowDoc("KEYWORDS")):
-% \keyword{ ~kwd1 }
-% \keyword{ ~kwd2 }
-% Use only one keyword per line.
-% For non-standard keywords, use \concept instead of \keyword:
-% \concept{ ~cpt1 }
-% \concept{ ~cpt2 }
-% Use only one concept per line.

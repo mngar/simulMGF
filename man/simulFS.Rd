@@ -1,6 +1,5 @@
 \name{simulFS}
 \alias{simulFS}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 Function to simulate full sib progeny genotype
 }
@@ -10,7 +9,6 @@ Simulate full sib progeny genotypes from the genotype of the parents (matrixes w
 \usage{
 simulFS(x, y, Nprogeny)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{x}{
 genotype matrix of a set of moms
@@ -44,12 +42,3 @@ simulFS(simG[1:3,],simG[4:6,],5)
 # The first 5 individuals are progeny of mom 1 and dad 1, the second 5 individuals
 # are progeny of mom 2 and dad 2, and so on.
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory (show via RShowDoc("KEYWORDS")):
-% \keyword{ ~kwd1 }
-% \keyword{ ~kwd2 }
-% Use only one keyword per line.
-% For non-standard keywords, use \concept instead of \keyword:
-% \concept{ ~cpt1 }
-% \concept{ ~cpt2 }
-% Use only one concept per line.

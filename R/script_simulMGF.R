@@ -80,10 +80,10 @@ simulHS <- function(x, Nprogeny){
   for(i in 1:nrow(x)){
     for(j in 1:Nprogeny){
       for(m in 1:ncol(x)){
-        if(x[i,m] == 0){newx[i+nrow(x)*(j-1),m]=sample(g0,1,replace=T)
-        } else if(x[i,m] == 1){newx[i+nrow(x)*(j-1),m]=sample(g1,1,replace=T)
-        } else if(x[i,m] == 2){newx[i+nrow(x)*(j-1),m]=sample(g2,1,replace=T)
-        } else if(is.na(x[i,m])){newx[i+nrow(x)*(j-1),m]=="NA"
+        if(x[i,m] == 0){newx[Nprogeny*(i-1)+j,m]=sample(g0,1,replace=T)
+        } else if(x[i,m] == 1){newx[Nprogeny*(i-1)+j,m]=sample(g1,1,replace=T)
+        } else if(x[i,m] == 2){newx[Nprogeny*(i-1)+j,m]=sample(g2,1,replace=T)
+        } else if(is.na(x[i,m])){newx[Nprogeny*(i-1)+j,m]=="NA"
         }
       }
     }
@@ -124,16 +124,16 @@ simulFS <- function(x, y, Nprogeny){
   for(i in 1:nrow(x)){
     for(j in 1:Nprogeny){
       for(m in 1:ncol(x)){
-        if(x[i,m] == 0 &&  y[i,m] == 0){newy[i+nrow(x)*(j-1),m]=0
-        } else if(x[i,m] == 1 &&  y[i,m] == 0){newy[i+nrow(x)*(j-1),m]=sample(g0,1,replace=T)
-        } else if(x[i,m] == 2 &&  y[i,m] == 0){newy[i+nrow(x)*(j-1),m]=1
-        } else if(x[i,m] == 0 &&  y[i,m] == 1){newy[i+nrow(x)*(j-1),m]=sample(g0,1,replace=T)
-        } else if(x[i,m] == 1 &&  y[i,m] == 1){newy[i+nrow(x)*(j-1),m]=sample(g1,1,replace=T)
-        } else if(x[i,m] == 2 &&  y[i,m] == 1){newy[i+nrow(x)*(j-1),m]=sample(g2,1,replace=T)
-        } else if(x[i,m] == 0 &&  y[i,m] == 2){newy[i+nrow(x)*(j-1),m]=1
-        } else if(x[i,m] == 1 &&  y[i,m] == 2){newy[i+nrow(x)*(j-1),m]=sample(g2,1,replace=T)
-        } else if(x[i,m] == 2 &&  y[i,m] == 2){newy[i+nrow(x)*(j-1),m]=2
-        } else if(is.na(x[i,m]) ||  is.na(y[i,m])){newy[i+nrow(x)*(j-1),m]=="NA"
+        if(x[i,m] == 0 &&  y[i,m] == 0){newy[Nprogeny*(i-1)+j,m]=0
+        } else if(x[i,m] == 1 &&  y[i,m] == 0){newy[Nprogeny*(i-1)+j,m]=sample(g0,1,replace=T)
+        } else if(x[i,m] == 2 &&  y[i,m] == 0){newy[Nprogeny*(i-1)+j,m]=1
+        } else if(x[i,m] == 0 &&  y[i,m] == 1){newy[Nprogeny*(i-1)+j,m]=sample(g0,1,replace=T)
+        } else if(x[i,m] == 1 &&  y[i,m] == 1){newy[Nprogeny*(i-1)+j,m]=sample(g1,1,replace=T)
+        } else if(x[i,m] == 2 &&  y[i,m] == 1){newy[Nprogeny*(i-1)+j,m]=sample(g2,1,replace=T)
+        } else if(x[i,m] == 0 &&  y[i,m] == 2){newy[Nprogeny*(i-1)+j,m]=1
+        } else if(x[i,m] == 1 &&  y[i,m] == 2){newy[Nprogeny*(i-1)+j,m]=sample(g2,1,replace=T)
+        } else if(x[i,m] == 2 &&  y[i,m] == 2){newy[Nprogeny*(i-1)+j,m]=2
+        } else if(is.na(x[i,m]) ||  is.na(y[i,m])){newy[Nprogeny*(i-1)+j,m]=="NA"
         }
       }
     }

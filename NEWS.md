@@ -4,7 +4,7 @@
 
 
 ### Bugfixes
-- coding error in simulHS fixed
-- coding error in simulFS fixed
+- coding error in simulHS() fixed
+- coding error in simulFS() fixed
 
 

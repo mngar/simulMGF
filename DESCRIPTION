@@ -13,3 +13,4 @@ RoxygenNote: 7.2.3
 Suggests: 
     spelling
 Language: en-US
+PackageIcon: logo simulMGF.png

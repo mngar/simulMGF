@@ -19,6 +19,7 @@ jobs:
       group: pkgdown-${{ github.event_name != 'pull_request' || github.run_id }}
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true' # Agrego ESTA LÍNEA para eliminar warning
     #agrego esta seccion para dar permiso de escritura
     permissions:
         contents: write
@@ -45,6 +46,6 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4.8.0
         with:
-          clean: false
+          clean: true # CAMBIAR A TRUE PARA LIMPIAR LA RAMA DESTINO
           branch: gh-pages
           folder: docs
